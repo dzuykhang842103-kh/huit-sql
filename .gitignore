@@ -1,0 +1,24 @@
+# --- File hệ thống & Editor (Luôn cần) ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- File Dữ liệu Database (NÊN CHẶN) ---
+# Lý do: File data thường nặng và chứa dữ liệu cục bộ, không nên đẩy lên Git.
+# Chỉ nên đẩy file script tạo bảng (.sql) lên thôi.
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# --- File Backup & Log ---
+*.bak
+*.log
+*.tmp
+
+# --- File kết quả xuất ra (Tùy chọn) ---
+# Nếu bạn hay export kết quả ra excel/csv để xem thì chặn luôn cho sạch
+*.csv
+*.xlsx
